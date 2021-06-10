@@ -993,7 +993,7 @@ table tfoot td {
   height: 7px;
   -webkit-border-radius: 100%;
           border-radius: 100%;
-  background-color: #515151;
+  background-color: #FFF;
 }
 
 .about p {
@@ -1024,7 +1024,7 @@ table tfoot td {
 
 .contact .contact-title {
   position: relative;
-  color: #333030;
+  color: #FFF;
   font-weight: 400;
   font-size: 12px;
   margin: 0 0 5px;
@@ -1044,7 +1044,7 @@ table tfoot td {
   position: absolute;
   top: 50%;
   left: 0;
-  background-color: #515151;
+  background-color: #FFF;
 }
 
 .contact .contact-title::after {
@@ -1059,7 +1059,7 @@ table tfoot td {
   position: absolute;
   top: 50%;
   right: 0;
-  background-color: #515151;
+  background-color: #FFF;
 }
 
 .contact ul {
@@ -1079,7 +1079,7 @@ table tfoot td {
 }
 
 .contact ul li a {
-  color: #515151;
+  color: #FFF;
   display: block;
   padding: 5px;
   font-size: 18px;
@@ -1089,7 +1089,7 @@ table tfoot td {
 }
 
 .contact ul li a:hover {
-  color: #333030;
+  color: #FFF;
   -webkit-transform: scale(1.2);
       -ms-transform: scale(1.2);
           transform: scale(1.2);
