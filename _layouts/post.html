@@ -55,7 +55,14 @@ layout: main
           {% endfor %}
         </div>
       </div>
-      {% include disqus.html %}
+      {% for post in site.categories.CATEGORY_NAME %}
+      <li>
+        <a href="{{ post.url }}">
+          <img src="{{ post.thumbnail }}" />
+          <p>{{ post.excerpt }}</p>
+        </a>
+      </li>
+      {% endfor %}
     </div>
     <!-- End Wrap Content -->
   </div>
